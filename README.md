@@ -1,2 +1,7 @@
 # cdk-self-study
-aws cdk self study notes
+
+## Step 0: Setup the environment
+
+* Cloud9
+* Node.JS
+* VSCode
