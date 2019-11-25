@@ -1,3 +1,6 @@
+# zip
+*.tar.gz
+
 # Logs
 logs
 *.log

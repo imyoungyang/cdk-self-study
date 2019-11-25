@@ -7,6 +7,7 @@ aws ec2 authorize-security-group-ingress --group-name $security_group --protocol
 cs_version="2.1692-vsc1.39.2"
 wget https://github.com/codercom/code-server/releases/download/$cs_version/code-server$cs_version-linux-x86_64.tar.gz
 tar -xvzf code-server$cs_version-linux-x86_64.tar.gz
-cd code-server$cs_version-linux-x86_64
+mv code-server$cs_version-linux-x86_64 ~/environment/code-server
+cd ~/environment/code-server
 chmod +x code-server
-./code-server -p 8443
+./code-server --port 8443
