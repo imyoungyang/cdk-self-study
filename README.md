@@ -11,3 +11,8 @@ CDK init and folder structures.
 ## Step 2: CDK Tips for IAM Role
 
 ## Step 3: Infrastructure as code - create code commit and codebuild
+
+# References
+* [AWS CDK API Referece](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-construct-library.html)
+* [CDK Latest Reference Documentation](https://docs.aws.amazon.com/cdk/api/latest/)
+* [CDK Examples](https://github.com/aws-samples/aws-cdk-examples)
