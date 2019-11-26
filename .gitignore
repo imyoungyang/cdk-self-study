@@ -1,6 +1,11 @@
 # zip
 *.tar.gz
 
+# cdk sample directories
+1-cdk-init/cdk_app
+1-cdk-init/cdk_sample_app
+1-cdk-init/cdk_lib
+
 # Logs
 logs
 *.log
