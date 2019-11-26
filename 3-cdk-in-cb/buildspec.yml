@@ -1,0 +1,19 @@
+version: 0.2  
+ 
+phases:
+  install:
+    runtime-versions:  
+      nodejs: 10
+    commands:
+      - npm install -g typescript
+      - npm install -g aws-cdk
+  pre_build:
+    commands:
+      - aws help --version
+      - cdk --version
+  build:
+    commands:
+      - cdk --help
+  post_build:
+    commands:
+      - echo 'Done'
