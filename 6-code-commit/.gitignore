@@ -1,0 +1,7 @@
+*.js
+*.d.ts
+.application.json
+node_modules/
+.npm
+cdk.out
+lambda-payloads.json

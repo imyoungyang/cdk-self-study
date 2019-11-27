@@ -30,4 +30,7 @@ Please read this [ref](https://docs.aws.amazon.com/cdk/latest/guide/environments
 ## EC2 connection
 
 * [New: Using Amazon EC2 Instance Connect for SSH access to your EC2 Instances](https://aws.amazon.com/de/blogs/compute/new-using-amazon-ec2-instance-connect-for-ssh-access-to-your-ec2-instances/)
-* 
+
+## Advance VPC Setting in CDK
+
+* You can create public and private subnet with cidr range. [ref](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-ec2-readme.html#advanced-subnet-configuration)
