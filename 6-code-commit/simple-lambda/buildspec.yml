@@ -1,0 +1,17 @@
+version: 0.2  
+ 
+phases:
+  install:
+    runtime-versions:  
+      nodejs: 10
+    commands:
+      - npm install -g aws-cdk
+  pre_build:
+    commands:
+      - cdk list
+  build:
+    commands:
+      - cdk deploy -v
+  post_build:
+    commands:
+      - echo 'Done'

@@ -1,0 +1,20 @@
+{
+  "name": "simple-lambda",
+  "version": "0.1.0",
+  "bin": {
+    "simple-lambda": "bin/simple-lambda.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.18.0",
+    "aws-cdk": "^1.18.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "^1.18.0"
+  }
+}
