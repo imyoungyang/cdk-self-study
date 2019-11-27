@@ -8,9 +8,10 @@ phases:
       - npm install -g aws-cdk
   pre_build:
     commands:
-      - cdk list
+      - npm i
   build:
     commands:
+      - cdk list
       - cdk deploy -v
   post_build:
     commands:
