@@ -6,7 +6,7 @@ import iam = require('@aws-cdk/aws-iam');
 function createStatement() {
   const statement = new iam.PolicyStatement({
       resources: ['*'],
-      actions: ['lambda:*', 'ecr:*', 'cloudformation:*', 's3:*', 'iam:CreateRole'] });
+      actions: ['lambda:*', 'ecr:*', 'cloudformation:*', 's3:*', 'iam:*'] });
   return statement;
 }
 
